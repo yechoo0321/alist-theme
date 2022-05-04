@@ -1,0 +1,176 @@
+@import url(https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css);
+
+@font-face {
+	font-family: 'hanyi';
+	src: url('https://itggg.cn/font/Hanyitangmeire/hanyi.woff2') format('woff');
+}
+
+* {
+	font-family: hanyi;
+}
+
+@media (prefers-color-scheme: dark) {
+	.chakra-ui-dark {
+		background: url('https://cdn.jsdelivr.net/gh/yechoo0321/alist-theme@main/img/hei.jpg') no-repeat fixed center;
+		background-size: cover;
+		 !important: ;
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	.chakra-ui-light {
+		background: url('https://cdn.jsdelivr.net/gh/yechoo0321/alist-theme@main/img/bai.jpg') no-repeat fixed center;
+		background-size: cover;
+		 !important: ;
+	}
+}
+
+.chakra-ui-light {
+	background: url('https://cdn.jsdelivr.net/gh/yechoo0321/alist-theme@main/img/bai.jpg') no-repeat fixed center;
+	background-size: cover;
+	 !important: ;
+	background-attachment: fixed;
+}
+
+.chakra-ui-dark {
+	background: url('https://cdn.jsdelivr.net/gh/yechoo0321/alist-theme@main/img/hei.jpg') no-repeat fixed center;
+	background-size: cover;
+	 !important: ;
+	background-attachment: fixed;
+}
+
+/* .chakra-stack.line0.css-g9cw6v{display:none;} */
+.footer.css-3m0ceo {
+	display: none;
+}
+
+#root {
+	margin-bottom: 20px !important;
+}
+
+/* .chakra-stack.buttons.css-g9cw6v>div:first-child {display: none;} */
+.css-1re8im6 {
+	background-color: var(--chakra-colors-blackAlpha-700) !important;
+}
+
+.chakra-link.line1.css-f4h6uy {
+	pointer-events: none;
+}
+
+.chakra-ui-light .main-box {
+	background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.chakra-stack.css-pb5a2h {
+	background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.chakra-stack.css-zf9m6f {
+	background-color: var(--chakra-colors-blackAlpha-700) !important;
+}
+
+.index-box.css-1jif775 {
+	margin-top: 24px;
+}
+
+.down {
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	font-size: larger;
+}
+
+.down_click {
+	text-decoration: none;
+	color: inherit;
+	font-size: larger;
+}
+
+.down_click:link {
+	text-decoration: none;
+	color: inherit;
+	font-size: larger;
+}
+
+.down_click:visited {
+	text-decoration: none;
+	color: inherit;
+	font-size: larger;
+}
+
+.down_click:hover {
+	text-decoration: none;
+	color: inherit;
+	font-size: larger;
+}
+
+.down_click:active {
+	text-decoration: none;
+	color: inherit;
+	font-size: larger;
+}
+
+.down_click:focus {
+	text-decoration: none;
+	color: inherit;
+	font-size: larger;
+}
+
+
+
+#waifu #live2d {
+	/* height: 800px !important;width: 800px !important */
+	;
+}
+
+#waifu {
+	position: fixed !important;
+	right: 0px !important;
+	left: auto !important;
+	bottom: 1px !important;
+}
+
+#live2d {
+	position: relative !important;
+	left: 0px !important;
+	bottom: 0px !important;
+}
+
+#waifu-tips {
+	position: relative !important;
+	right: 0px !important;
+	bottom: 0px !important;
+	top: -25px;
+	width: 150px;
+	font-size: 12px;
+	/*display:none !important;隐藏对话框*/
+}
+
+#waifu-tool {
+	position: absolute !important;
+	left: -0px !important;
+	bottom: 20px !important;
+	width: 20px !important;
+}
+
+#waifu-toggle {
+	position: fixed;
+	right: 1px;
+	left: auto;
+	/* top: 100px; */
+	margin-left: auto;
+	margin-right: -70px;
+	writing-mode: vertical-lr;
+	transition: margin-right 1s;
+}
+
+#waifu-toggle.waifu-toggle-active {
+	margin-left: -39px !important;
+}
+
+#waifu-toggle.waifu-toggle-active:hover {
+	margin-left: -14px !important;
+}
+
