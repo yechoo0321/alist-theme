@@ -5,15 +5,15 @@ document.write("<script nomodule id=''vite-legacy-polyfill' src='https://npm.ele
 document.write("<script nomodule id='vite-legacy-entry' data-src='https://npm.elemecdn.com/alist-web@2.4.0/dist/assets/index-legacy.18b38563.js'>System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>");
 function ref() {
 	const xhr = new XMLHttpRequest();
-	const url = 'http://iso.yechoo.cn/txt/api.php'
+	const url = 'https://api.xygeng.cn/one'
 	xhr.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 			const json = JSON.parse(xhr.responseText)
 			const data = json.data
 			let down = document.getElementById("down_click");
 			// console.log(down);
-			down.innerHTML = data;
-			console.log(data);
+			down.innerHTML = data.content;
+			console.log(data.content);
 		}
 	}
 	xhr.open('GET', url)
