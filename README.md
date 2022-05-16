@@ -16,5 +16,5 @@
 
 ```
 <marquee style="position: fixed;top: 0;"><a href="你想跳转的链接" class="down_click">你想展示的内容</a></marquee>
-<script src="https://cdn.jsdelivr.net/gh/yechoo0321/alist-theme@main/js/auto_yechoo.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/yechoo0321/alist-theme@0.0.7/js/auto_yechoo.js"></script>
 ```
